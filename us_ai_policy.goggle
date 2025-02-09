@@ -1,0 +1,32 @@
+! name: U.S. Government AI Policy Research
+! description: Optimized list of authoritative U.S. government websites and data feeds for researching AI policies, regulations, and related agency reports.
+! public: true
+! author: park-brian
+
+! Legislative
+$boost=3,site=congress.gov
+$site=house.gov
+$site=senate.gov
+$site=loc.gov
+
+! Executive & Regulatory
+$boost=3,site=whitehouse.gov
+$boost=2,site=regulations.gov
+$site=archives.gov
+
+! Federal Agencies & Data Feeds
+$boost=3,site=nist.gov
+$boost=3,site=cisa.gov
+$site=hhs.gov
+$site=state.gov
+$site=treasury.gov
+$site=commerce.gov
+$site=defense.gov
+$site=federalregister.gov
+$site=healthit.gov
+$site=usdoj.gov
+$site=data.gov
+
+! Additional High-Quality Sources
+$site=acl.gov
+$downrank,site=dgsociety.org
