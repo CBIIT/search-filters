@@ -26,6 +26,8 @@ $site=federalregister.gov
 $site=healthit.gov
 $site=usdoj.gov
 $site=data.gov
+$site=opm.gov
+$site=omb.gov
 
 ! Additional High-Quality Sources
 $site=acl.gov
